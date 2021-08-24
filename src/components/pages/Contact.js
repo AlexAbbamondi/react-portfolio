@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">
+        <div className="col-sm-12 col-md-8">
           <form className="mb-5 mt-5">
           <div class="form-group mb-3">
               <label htmlFor="name">Name:</label>
@@ -32,7 +32,7 @@ const Contact = () => {
                 rows="8"
               ></textarea>
             </div>
-            <button>Submit</button>
+            <button className="btn btn-primary mt-3">Submit</button>
           </form>
         </div>
       </div>

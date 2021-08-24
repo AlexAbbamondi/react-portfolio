@@ -5,4 +5,10 @@ footer {
 
 .icons {
     color: #ffffff !important;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.icons:hover {
+    color: #dda15e !important;
 }
