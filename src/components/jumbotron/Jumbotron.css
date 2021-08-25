@@ -1,0 +1,11 @@
+.custom-jumbotron {
+    padding: 100px 0;
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lead, .title {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}

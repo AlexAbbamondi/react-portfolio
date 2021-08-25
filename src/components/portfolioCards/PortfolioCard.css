@@ -1,0 +1,50 @@
+.works {
+    position: relative;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.work-img {
+    border: 8px solid #283618;
+    height: 275px;
+    width: 425px;
+  }
+
+  .works-title {
+    position: absolute;
+    bottom: 0;
+    background-color: #283618;
+    color: #DDA15E;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: 20px;
+    text-decoration: none !important;
+  }
+
+  .works-title h3 {
+      font-size: 95%;
+      line-height: .5rem;
+  }
+  
+  .works-title p {
+    font-size: 75%;
+    line-height: .75rem;
+  }
+
+  button {
+    background-color: #606C38;
+    border-radius: 5px !important;
+    border: solid #606C38;
+  }
+  
+  button:hover {
+    background-color: #DDA15E;
+  }
+  
+  button a {
+    text-decoration: none !important;
+    color: #ffffff;
+    font-size: 75%;
+  }
+  
+  button a:hover {
+    color: #606C38;
+  }
