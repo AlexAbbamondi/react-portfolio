@@ -16,9 +16,11 @@
 ![image](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/homepage-project.PNG?raw=true)<br>
 ![image](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/portfolio-page.PNG?raw=true)
 
-
 <h3>Licensing</h3>
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ 
+ <h3>Usage</h3>
+ -You must open the terminal and run 'npm start'
  
 <h3>Deployment Link</h3>
 -https://alexabbamondi.github.io/react-portfolio/
