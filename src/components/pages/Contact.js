@@ -1,5 +1,4 @@
 import React from "react";
-import "../../js/contactForm";
 
 const Contact = () => {
   return (
@@ -9,8 +8,7 @@ const Contact = () => {
           <form
             action="mailto:alex.abbamondi@gmail.com"
             method="POST"
-            enctype="multipart/form-data"
-            name="EmailForm"
+            name="myForm"
             className="mb-5 mt-5"
           >
             <div class="form-group mb-3">
@@ -20,6 +18,8 @@ const Contact = () => {
                 class="form-control"
                 id="name"
                 placeholder="Name"
+                name="name"
+                required
               />
             </div>
             <div class="form-group mb-3">
@@ -29,13 +29,27 @@ const Contact = () => {
                 class="form-control"
                 id="emailAddress"
                 placeholder="name@example.com"
+                name="email"
+                required
               />
             </div>
             <div class="form-group">
               <label htmlFor="textArea">Message:</label>
-              <textarea class="form-control" id="textArea" rows="8"></textarea>
+              <textarea
+                class="form-control"
+                id="textArea"
+                rows="8"
+                name="message"
+                required
+              ></textarea>
             </div>
-            <button className="btn btn-primary mt-3" type="submit" value="Submit">Submit</button>
+            <button
+              className="btn btn-primary mt-3"
+              type="submit"
+              value="Submit"
+            >
+              Submit
+            </button>
           </form>
         </div>
       </div>
