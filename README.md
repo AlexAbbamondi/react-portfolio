@@ -13,8 +13,8 @@
 -react-router-bootstrap<br>
 
 <h3>Screenshots</h3>
-![Alt text](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/homepage-project.PNG?raw=true)<br>
-![Alt text](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/portfolio-page.PNG?raw=true)
+![image](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/homepage-project.PNG?raw=true)<br>
+![image](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/portfolio-page.PNG?raw=true)
 
 
 <h3>Licensing</h3>
