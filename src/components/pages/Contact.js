@@ -35,7 +35,7 @@ const Contact = () => {
               <label htmlFor="textArea">Message:</label>
               <textarea class="form-control" id="textArea" rows="8"></textarea>
             </div>
-            <button className="btn btn-primary mt-3" type="submit" value="Submit" onClick="sendContact();">Submit</button>
+            <button className="btn btn-primary mt-3" type="submit" value="Submit">Submit</button>
           </form>
         </div>
       </div>
