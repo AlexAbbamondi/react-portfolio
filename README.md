@@ -13,7 +13,7 @@
 -react-router-bootstrap<br>
 
 <h3>Screenshots</h3>
-
+![Alt text](https://github.com/AlexAbbamondi/react-portfolio/blob/main/src/images/homepage-project.PNG)
 
 
 <h3>Licensing</h3>
