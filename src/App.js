@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Jumbotron />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/react-portfolio" component={Home} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
           <Route path="/resume" component={Resume} />

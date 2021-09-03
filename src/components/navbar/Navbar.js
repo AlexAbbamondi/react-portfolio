@@ -13,7 +13,7 @@ const NavbarComponent = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className=" navbar-right justify-content-end" style={{ width: "100%" }}>
-            <LinkContainer exact={true} to="/">
+            <LinkContainer exact={true} to="/react-portfolio">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer exact={true} to="/portfolio">
