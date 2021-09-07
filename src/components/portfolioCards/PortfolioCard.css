@@ -58,5 +58,40 @@
       height: 550px;
       width: 1000px;
     }
+
+    .works-title {
+      position: absolute;
+      bottom: 0;
+      background-color: #283618;
+      color: #DDA15E;
+      padding: 10px 10px 10px 20px;
+      margin-bottom: 20px;
+      text-decoration: none !important;
+    }
+  
+    .works-title h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        font-family: 'Lobster', cursive;
+    }
+    
+    .works-title p {
+      font-size: 90%;
+      line-height: 1rem;
+      font-family: 'Open Sans', sans-serif;
+    }
+  
+    button {
+      background-color: #606C38;
+      border-radius: 5px !important;
+      border: solid #606C38;
+    }
+    
+    button a {
+      text-decoration: none !important;
+      color: #ffffff;
+      font-size: 90%;
+      font-family: 'Open Sans', sans-serif;
+    }
   }
   
