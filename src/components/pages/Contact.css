@@ -1,0 +1,37 @@
+.contact-title {
+  font-family: "Lobster", cursive;
+  font-size: 3.5rem;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+}
+
+button {
+  background-color: #606c38 !important;
+  border-radius: 5px !important;
+  border: solid #606c38;
+  color: #ffffff !important;
+}
+
+button:hover {
+  background-color: #dda15e !important;
+}
+
+.contact-response h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: "Lobster", cursive;
+}
+
+@media only screen and (min-width: 1200px) {
+  .custom-row {
+    margin-bottom: 100px;
+  }
+
+  .contact-response h1 {
+    margin-top: 320px;
+    margin-bottom: 320px;
+  }
+}

@@ -1,0 +1,13 @@
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+p, ul {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-width: 1200px) {
+    .custom-row {
+      margin-bottom: 80px;
+    }
+  }

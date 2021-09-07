@@ -5,7 +5,14 @@
     background-size: cover;
 }
 
-.lead, .title {
+.title {
     color: #ffffff !important;
     font-weight: bold !important;
+    font-family: 'Lobster', cursive;
+}
+
+.lead {
+    color: #ffffff !important;
+    font-weight: bold !important;
+    font-family: 'Open Sans', sans-serif;
 }

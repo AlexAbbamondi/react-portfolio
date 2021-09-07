@@ -1,17 +1,27 @@
 import React from "react";
 import PortfolioCard from "../portfolioCards/PortfolioCard";
 
-import adventures from "../../images/on-the-go-adventures.jpg";
-import inMarket from "../../images/inMarket.jpg";
-import passwordGenerator from "../../images/password-generator.jpg";
-import weatherDashboard from "../../images/weather-dashboard.jpg";
-import workDayScheduler from "../../images/work-day-scheduler.jpg"
-import techBlog from "../../images/tech-blog.jpg"
+import adventures from "../../images/on-the-go-adventures.PNG";
+import inMarket from "../../images/inMarket.PNG";
+import passwordGenerator from "../../images/password-generator.PNG";
+import weatherDashboard from "../../images/weather-dashboard.PNG";
+import workDayScheduler from "../../images/work-day-scheduler.PNG";
+import techBlog from "../../images/tech-blog.PNG";
+import noteTaker from "../../images/note-taker.PNG";
+import portfolio from "../../images/portfolio.PNG";
+import teamGenerator from "../../images/team-generator.PNG";
+import workoutTracker from "../../images/workout-tracker.PNG";
+import frequencies from "../../images/frequencies.PNG";
+
+import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
     <div className="container">
-      <div className="row mt-5 mb-4">
+      <div className="row mt-5 mb-4 ">
+        <div className="portfolio-title">
+          <h1>Portfolio</h1>
+        </div>
         <PortfolioCard
           title="On The Go Adventures"
           stack="HTML/CSS/JavaScript"
@@ -53,6 +63,42 @@ const Portfolio = () => {
           link="https://fathomless-waters-10773.herokuapp.com/"
           github="https://github.com/AlexAbbamondi/MVC-Tech-Blog"
           img={techBlog}
+        />
+
+        <PortfolioCard
+          title="Note Taker"
+          stack="HTML/CSS/JavaScript/Node/Express"
+          link="https://pacific-wildwood-94323.herokuapp.com/"
+          github="https://github.com/AlexAbbamondi/note-taker"
+          img={noteTaker}
+        />
+        <PortfolioCard
+          title="Flex Box Portfolio"
+          stack="HTML/CSS"
+          link="https://alexabbamondi.github.io/UCF-Portfolio/"
+          github="https://github.com/AlexAbbamondi/UCF-Portfolio"
+          img={portfolio}
+        />
+        <PortfolioCard
+          title="Team Profile Generator"
+          stack="HTML/CSS/Bootstrap/JavaScript/Node"
+          link="https://github.com/AlexAbbamondi/team-profile-generator"
+          github="https://github.com/AlexAbbamondi/team-profile-generator"
+          img={teamGenerator}
+        />
+        <PortfolioCard
+          title="Workout Tracker"
+          stack="HTML/CSS/Handlebars/JavaScript/Node/Express/MongoDB"
+          link="https://pacific-savannah-02343.herokuapp.com/"
+          github="https://github.com/AlexAbbamondi/workout-tracker"
+          img={workoutTracker}
+        />
+        <PortfolioCard
+          title="Frequencies"
+          stack="HTML/CSS/JavaScript/React/Node/Express/MongoDB"
+          link="https://desolate-garden-53776.herokuapp.com/"
+          github="https://github.com/RLAQUEA/final-project"
+          img={frequencies}
         />
       </div>
     </div>

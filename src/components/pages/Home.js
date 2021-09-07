@@ -9,17 +9,16 @@ import ServicesCard from "../services/ServicesCard";
 const Home = () => {
   return (
     <div className="container-fuild">
-      <div className="container">
+      <div className="container about-me-container">
         <div className="row">
           <div className="col-sm-12 col-md-6 mt-5 mb-5">
             <img
               className="headshot center-image"
               src={headshot}
               alt="headshot"
-              height={400}
             />
           </div>
-          <div className="col-sm-12 col-md-6 ml-5 mb-5 mt-5">
+          <div className="col-sm-12 col-md-6 ml-5 mb-5 mt-5 about-me">
             <h1>About Me</h1>
             <p>
               I am an outgoing, hardworking, and diligent person ready for new
@@ -46,11 +45,17 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid services">
           <div className="row services-section">
-            <ServicesCard title="Front End" image={frontend} alt="front end" />
-            <ServicesCard title="Back End" image={backend} alt="back end" />
-            <ServicesCard title="Design" image={design} alt="design" />
+            <div className="col service-card">
+            <ServicesCard title="Front End" image={frontend} alt="front end" text="HTML, CSS, JavaScript, jQuery, Bootstrap, Materialize, Reactstrap, React, Redux, Sass"/>
+            </div>
+            <div className="col service-card">
+            <ServicesCard title="Back End" image={backend} alt="back end" text="Node, Express, C#, java, MongoDB/Mongoose, MySQL/Sequelize, MSSQL"/>
+            </div>
+            <div className="col service-card">
+            <ServicesCard title="Programs/IDEs" image={design} alt="design" text="VS Code, Visual Studeio, ReSharper, GitHub, WordPress, Photoshop, WooCommerce"/>
+            </div>
           </div>
         </div>
     </div>
